@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.nav ul {
+    height: 70px;
+    width: 92%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+.nav ul #box1 #logo {
+    display: flex;
+    align-items: center;
+}
+.nav ul #box1 #logo h3 {
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    color: red;
+}
+.nav ul .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul #box1 {
+    width: 55%;
+    /* border: 1px solid; */
+}
+.nav ul #box2 {
+    width: 7%;
+    /* border: 1px solid; */
+}
+.nav ul .box li {
+    list-style: none;
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    font-size: 14px;
+}
+.nav ul .box li a {
+    text-decoration: none;
+    color: black;
+}
+.nav ul .box li a:hover {
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+}

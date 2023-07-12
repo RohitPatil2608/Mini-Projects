@@ -1,0 +1,45 @@
+#box {
+    width: 600px;
+    height: 950px;
+    background-color: rgb(47, 157, 236);
+    border: 5px solid;
+}
+
+#h1 {
+    width: 260px;
+    height: 260px;
+    border: 3px solid;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(./ratan\ tataa\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h2 {
+    width: 580px;
+    height: 60px;
+    background-color: blueviolet;
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#h3 {
+    width: 580px;
+    height: 140px;
+    background-color: orangered;
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#h4{
+    width: 560px;
+    height: 314px;
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}

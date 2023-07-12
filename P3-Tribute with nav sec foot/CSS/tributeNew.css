@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: blanchedalmond;
+}
+
+main {
+    height: 1360px;
+    width: 800px;
+    border: 5px solid;
+    background-color: rgb(166, 131, 199);
+    margin: 0px auto;
+}
+   
+   /* ........................................................CSS FOR HEADER................................................................. */
+
+   nav {
+    height: 150px;
+    width: 750px;
+    border: 3px solid;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 30px 30px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-image: url(./tata\ logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#top li a {
+    padding: 20px 10px;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+#top li {
+    display: inline-block;
+}
+
+#top {
+    margin-left: 250px;
+    position: absolute;
+    top: 90px;
+}
+
+a:hover {
+    box-shadow: 0px 0px 10px red;
+}
+  /* ........................................................CSS FOR SECTION................................................................ */
+  section{
+    height: 870px;
+    width: 750px;
+    border: 3px solid;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    margin: 0px auto;
+    margin-top: 5px;
+}
+#photo {
+    width: 260px;
+    height: 260px;
+    border: 3px solid;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(./ratan\ tataa\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {
+    width: 720px;
+    height: 60px;
+    background-color: #3EECAC;
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#section2 {
+    width: 720px;
+    height: 120px;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#section3 {
+    width: 720px;
+    height: 314px;
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/* .............................................................CSS FOR FOOTER........................................................................ */
+#footer{
+    height: 300px;
+    width: 750px;
+    border: 3px solid;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+}
+#foot1 {
+    height: 200px;
+    width: 300px;
+    border: 2px solid;
+    margin-left: 223px;
+    margin-top: 20px;
+    border-radius: 20px; 
+     
+}
+#bottom li a {
+    padding: 10px 10px;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+#bottom li {
+    display: inline-block;
+}
+
+#bottom {
+    margin-left: 10px;
+    margin-top: 30px;
+}

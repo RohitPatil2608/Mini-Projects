@@ -1,0 +1,85 @@
+#section .parent .box {
+    height: 550px;
+    width: 96%;
+    /* border: 1px solid; */
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+
+#section #parent1 #box1 {
+    height: 700px;
+    width: 94%;
+    margin-left: 3%;
+}
+
+#section .parent #box1 #BB {
+    height: 250px;
+    width: 40%;
+    /* border: 1px solid; */
+}
+#section #parent1 #box1 #BB .b h1 {
+    font-size: 35px;
+    
+}
+#section #parent1 #box1 #BB #bb{
+    height: 250px;
+    width: 90%;
+    /* border: 1px solid; */
+    margin-left: 10%;
+}
+#section .parent #box1 #BB .b {
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid; */
+    text-align: justify;
+}
+
+#section .parent #box1 #BB #b2 {
+    height: 100px;
+}
+
+#section .parent #box1 #BB #b3 ul {
+    height: 50px;
+    margin-top: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+
+#section .parent #box1 #BB #b3 ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#section .parent #box1 #BB #b3 ul li a {
+    text-decoration: none;
+    color: rgb(45, 35, 35);
+}
+
+#section .parent #box1 #BB #b3 ul li #trail {
+    padding: 8px;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    background-color: rgb(86, 86, 242);
+    color: white;
+}
+
+#section .parent #box1 #BB #b3 ul li #trail:hover {
+    background-color: blue;
+}
+
+/* parent 2 and 4 */
+#section .parent .box .A {
+    height: 550px;
+    width: 33.4%;
+    /* border: 1px solid; */
+}
+
+#section .parent .box .A .a {
+    height: 550px;
+    width: 90%;
+    /* border: 1px solid; */
+    margin-left: 5%;
+}

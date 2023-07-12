@@ -1,0 +1,171 @@
+#footer{
+    height: 350px;
+    width: 100vw;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+#footer1{
+    height: 295px;
+    width: 1100px;
+    /* border: 1px solid white  ; */
+    display: flex;
+    justify-content: space-between;
+}
+#footer2{
+    height: 50px;
+    width: 1100px;
+    /* border: 1px solid white; */
+    display: flex;
+}
+#foot1{
+    height: 294px;
+    width: 170px;
+    /* border: 1px solid white; */
+}
+#foot2{
+    height: 294px;
+    width: 170px;
+    /* border: 1px solid white; */
+}
+#foot3{
+    height: 294px;
+    width: 170px;
+    /* border: 1px solid white; */
+}
+#foot4{
+    height: 294px;
+    width: 170px;
+    /* border: 1px solid white; */
+}
+#foot5{
+    height: 294px;
+    width: 300px;
+    /* border: 1px solid white; */   
+}
+.head{
+    height: 40px;
+    width: 100px;
+    /* border: 1px solid; */
+    text-align: left;
+    line-height: 40px;
+    color: white;
+}
+.box{
+    height: 31px;
+    width: 168px;
+    /* border: 1px solid white; */
+    color: gray;
+    text-align: start;
+}
+
+#gamer{
+    height: 40px;
+    width: 300px;
+    /* border: 1px solid white; */
+    color: green;
+    line-height: 40px;
+}
+#icon{
+    height: 50px;
+    width: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+#suptext{
+    font-size: 7px;
+}
+#facebook{
+    height: 35px;
+    width: 35px;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 35px;
+    color: green;
+    margin-left: 100px;
+}
+#insta{
+    height: 35px;
+    width: 35px;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 35px;
+    color: green;
+    margin-left: 10px;
+}
+#twitter{
+    height: 35px;
+    width: 35px;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 35px;
+    color: green;
+    margin-left: 10px;
+}
+
+#end1{
+    height: 40px;
+    width: 280px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+   
+}
+#end2{
+    height: 40px;
+    width: 80px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#end3{
+    height: 40px;
+    width: 80px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#end4{
+    height: 40px;
+    width: 80px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#end5{
+    height: 40px;
+    width: 120px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#end6{
+    height: 40px;
+    width: 80px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 250px;
+}
+#end7{
+    height: 40px;
+    width: 120px;
+    /* border: 1px solid red; */
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 10px;
+   
+}
+.clr{
+    color: gray;
+}

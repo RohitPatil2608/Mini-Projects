@@ -1,0 +1,159 @@
+#main1{
+    height: 650px;
+    width: 100vw;
+    border: 1px solid;
+    display: flex;
+}
+#a{
+    height: 650px;
+    width: 850px;
+    border: 5px solid gray;
+    background-image: url(./razer4.jpg);
+    display: flex;
+    justify-content: center;
+}
+#b{
+    height: 650px;
+    width: 850px;
+    border: 5px solid gray;
+    background-image: url(./razer5.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#a-parent{
+    width: 500px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#b-parent{
+    width: 700px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#a1{
+    height: 50px;
+    width: 500px;
+    /* border: 1px solid white; */
+    top: 100px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#a2{
+    height: 30px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#b2{
+    height: 30px;
+    width: 700px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#a3{
+    height: 40px;
+    width: 310px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#b3{
+    height: 40px;
+    width: 200px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#edge{
+    color: white;
+}
+#learnbuy1{
+    height: 30px;
+    width: 100px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 10px;
+}
+#learnbuy2{
+    height: 30px;
+    width: 150px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 40px;
+}
+#learnbuy3{
+    height: 30px;
+    width: 150px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 20px;
+}
+#first{
+    height: 26px;
+    width: 80px;
+    /* border: 1px solid red; */
+    
+}
+#first2{
+    height: 26px;
+    width: 150px;
+    /* border: 1px solid red; */
+}
+#sec2{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#first3{
+    height: 26px;
+    width: 150px;
+    /* border: 1px solid red; */
+}
+#sec3{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#edgegreen{
+    color: green;
+    font-size: 20px;
+    font-weight: 900;
+}

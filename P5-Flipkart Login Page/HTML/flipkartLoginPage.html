@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        #main {
+            height: 600px;
+            width: 800px;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            margin-top: 70px;
+            display: flex;
+        }
+
+        .child {
+            height: 576px;
+            width: 390px;
+            /* border: 1px solid; */
+            margin-top: 10px;
+        }
+
+        #child1 {
+            margin-left: 8px;
+            width: 300px;
+            background-color: #2874f0;
+            border-right: none;
+        }
+
+        #child2 {
+            width: 480px;
+            background-color: #fff;
+            border-left: none;
+        }
+
+        #inner1 {
+            height: 300px;
+            width: 300px;
+            /* border: 1px solid; */
+            display: flex;
+        }
+
+        #inner2 {
+            height: 274px;
+            width: 300px;
+            /* border: 1px solid; */
+            border-top: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        #img {
+            height: 150px;
+            width: 200px;
+            /* border: 1px solid; */
+            background-image: url(./flipkart\ img.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 70px;
+        }
+
+        #in1 {
+            height: 30px;
+            width: 80px;
+            /* border: 1px solid; */
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        #in2 {
+            height: 70px;
+            width: 180px;
+            /* border: 1px solid; */
+            margin-top: 100px;
+            margin-left: -80px;
+        }
+
+        h1 {
+            margin-top: 0px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h3 {
+            margin-top: 1px;
+            color: white;
+            font-weight: lighter;
+        }
+
+        #right1 {
+            height: 195px;
+            width: 400px;
+            /* border: 1px solid; */
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        #input {
+            height: 40px;
+            width: 365px;
+            border: none;
+            border-bottom: 1px solid blue;
+            font-size: medium;
+        }
+
+        #r1{
+            margin-top: 20px;
+            margin-left: 4px;
+            color: rgb(128, 130, 131);
+            font-size: 16px;
+        }
+
+        #r2{
+            margin-top: 23px;
+            height: 45px;
+            width: 400px;
+            border: 1px solid;
+            background-color: #fb641b;
+            color: white;
+            font-weight: 600;
+            padding-top: 3px;
+        }
+
+        #otp{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            font-family: Roboto,Arial,sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        
+        #r3{
+            margin-top: 270px;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main">
+        <div class="child" id="child1">
+            <div class="inner" id="inner1">
+                <div id="in1">
+                    <h1>Login</h1>
+                </div>
+                <div id="in2">
+                    <h3>Get access to your Orders, Wishlist and Recommendations</h3>
+                </div>
+            </div>
+            <div class="inner" id="inner2">
+                <div id="img"></div>
+            </div>
+        </div>
+        <div class="child" id="child2">
+            <div id="right1">
+                <input id="input" type="text" placeholder="Enter Email / Mobile Number"><br>
+                <br>
+                <div id="r1">By continuing, you agree to Flipkart's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</div>
+                <div id="r2"><p id="otp">Request OTP</p></div>
+                <div id="r3"><a href="#">New to Flipkart? Create an account</a></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

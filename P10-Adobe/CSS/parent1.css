@@ -1,0 +1,71 @@
+#section {
+    height: 2620px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+#section .parent {
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid; */
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;  
+}
+#section #parent1{
+    height: 700px;
+    background-image: url(./CC-MAX-triple-tablet.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+   
+}
+#section #parent1 #box1 #BB .b h1 {
+    font-size: 35px;
+    
+}
+#section #parent1 #box1 #BB #bb{
+    height: 250px;
+    width: 90%;
+    /* border: 1px solid; */
+    margin-left: 10%;
+}
+#section #block {
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+#section #block #bl-child {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid; */
+
+}
+
+#section #block #bl-child ul {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 7px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section #block #bl-child ul li {
+    list-style: none;
+    margin-left: 30px;
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+
+#section #block #bl-child ul li a {
+    /* border: 2px solid; */
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#section #block #bl-child ul li a:hover {
+    background-color: rgb(74, 29, 29);
+    color: white;
+}

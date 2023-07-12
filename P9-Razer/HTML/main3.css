@@ -1,0 +1,181 @@
+#main3{
+    height: 650px;
+    width: 100vw;
+    border: 1px solid;
+    display: flex;
+}
+#e{
+    height: 650px;
+    width: 850px;
+    border: 5px solid gray;
+    background-image: url(./razer8.jpg);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+#f{
+    height: 650px;
+    width: 850px;
+    border: 5px solid gray;
+    background-image: url(./razer9.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#e-parent{
+    width: 600px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#f-parent{
+    width: 500px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#e1{
+    height: 50px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#e2{
+    height: 30px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#e3{
+    height: 40px;
+    width: 250px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#f1{
+    height: 50px;
+    width: 500px;
+    /* border: 1px solid white; */
+    top: 100px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#f2{
+    height: 30px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#f3{
+    height: 40px;
+    width: 150px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#edge{
+    color: white;
+}
+#learnbuy9{
+    height: 30px;
+    width: 120px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 20px;
+}
+#learnbuy10{
+    height: 30px;
+    width: 50px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 40px;
+}
+#learnbuy11{
+    height: 30px;
+    width: 120px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 20px;
+}
+#first9{
+    height: 26px;
+    width: 80px;
+    /* border: 1px solid red; */
+    
+}
+#first10{
+    height: 26px;
+    width: 30px;
+    /* border: 1px solid red; */
+}
+#first11{
+    height: 26px;
+    width: 80px;
+    /* border: 1px solid red; */
+    
+}
+#sec9{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#sec10{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#sec11{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#edgegreen{
+    color: green;
+    font-size: 20px;
+    font-weight: 900;
+}

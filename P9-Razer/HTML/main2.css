@@ -1,0 +1,200 @@
+#main2{
+    height: 650px;
+    width: 100vw;
+    border: 1px solid;
+    display: flex;
+}
+#c{
+    height: 650px;
+    width: 850px;
+    border: 5px solid gray;
+    background-image: url(./razer6.jpg);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+#d{
+    height: 650px;
+    width: 850px;
+    border: 5px solid gray;
+    background-image: url(./razer7.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#c-parent{
+    width: 700px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#d-parent{
+    width: 700px;
+    height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#c1{
+    height: 50px;
+    width: 650px;
+    /* border: 1px solid white; */
+    top: 100px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#c2{
+    height: 30px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#c3{
+    height: 40px;
+    width: 250px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#d1{
+    height: 50px;
+    width: 650px;
+    /* border: 1px solid white; */
+    top: 100px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#d2{
+    height: 30px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#d3{
+    height: 40px;
+    width: 250px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#edge{
+    color: white;
+}
+#learnbuy5{
+    height: 30px;
+    width: 120px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 20px;
+}
+#learnbuy6{
+    height: 30px;
+    width: 50px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 40px;
+}
+#learnbuy7{
+    height: 30px;
+    width: 120px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 20px;
+}
+#learnbuy8{
+    height: 30px;
+    width: 50px;
+    /* border: 1px solid white; */
+    margin-top: 4px;
+    display: flex;
+    margin-left: 40px;
+}
+#first5{
+    height: 26px;
+    width: 80px;
+    /* border: 1px solid red; */
+    
+}
+#first6{
+    height: 26px;
+    width: 30px;
+    /* border: 1px solid red; */
+}
+#first7{
+    height: 26px;
+    width: 80px;
+    /* border: 1px solid red; */
+    
+}
+#first8{
+    height: 26px;
+    width: 30px;
+    /* border: 1px solid red; */
+}
+#sec5{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#sec6{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#sec7{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#sec8{
+    height: 26px;
+    width: 15px;
+    /* border: 1px solid red; */
+    
+}
+#edgegreen{
+    color: green;
+    font-size: 20px;
+    font-weight: 900;
+}

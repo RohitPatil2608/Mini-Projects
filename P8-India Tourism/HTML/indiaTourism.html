@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Tourism</title>
+    <style>
+        #parent {
+            height: 3050px;
+            width: 900px;
+            border: 1px solid;
+            background-color: #74EBD5;
+            background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+            margin: 0 auto;
+        }
+        .child {
+            height: 50px;
+            width: 900px;
+            /* border: 1px solid; */
+        }
+        #child2 {
+            height: 100px;
+            border-top: 5px solid red;
+            border-bottom: 5px solid red;
+        }
+        #child3 {
+            height: 2850px;
+            overflow-y: scroll;
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        h2 {
+            text-align: center;
+            color: orangered;
+        }
+        ul li {
+            display: inline-block;
+            margin-top: 25px;
+        }
+        ul li a {
+            padding: 20px 30px;
+            border: 1px solid;
+            border-radius: 20px;
+            margin-left: 20px;
+            text-decoration: none;
+            box-shadow: 2px 2px 10px orangered;
+        }
+        ul {
+            margin-left: 400px;
+        }
+        a:hover{
+            background-color: black;
+            color: red;
+        }
+        .place {
+            height: 400px;
+            width: 800px;
+            border: 1px solid;
+            border-radius: 40px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .inner1 {
+            height: 50px;
+            width: 250px;
+            border: 1px solid transparent;
+            margin-left: 30px;
+            border-radius: 20px;
+        }
+        .inner2 {
+            height: 300px;
+            width: 250px;
+            /* border: 1px solid; */
+            margin-left: 20px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+        .inner3 {
+            height: 300px;
+            width: 500px;
+            /* border: 1px solid; */
+            margin-left: 20px;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+        .inner2 {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #inner12 {
+            background-image: url(./kashi2.jpg);
+        }
+
+        #inner22 {
+            background-image: url(./ujjain4.jpg);
+        }
+
+        #inner32 {
+            background-image: url(./haridwar2.jpg);
+        }
+
+        #inner42 {
+            background-image: url(./ayodhya2.jpg);
+        }
+
+        #inner52 {
+            background-image: url(./mathura2.jpg);
+        }
+
+        #inner62 {
+            background-image: url(./kanchipuram2.jpg);
+        }
+
+        #inner72 {
+            background-image: url(./haampi2.jpg);
+        }
+
+        #inner82 {
+            background-image: url(./tirumala2.jpg);
+        }
+
+        #inner92 {
+            background-image: url(./puri2.jpg);
+        }
+
+        #place1 {
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        }
+
+        #place2 {
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+        }
+
+        #place3 {
+            background-color: #F4D03F;
+            background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+        }
+
+        #place4 {
+            background-color: #FF3CAC;
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        }
+
+        #place5 {
+            background-color: #FFE53B;
+            background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+        }
+
+        #place6 {
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        }
+
+        #place7 {
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+        }
+
+        #place8 {
+            background-color: #F4D03F;
+            background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+        }
+
+        #place9 {
+            background-color: #FF3CAC;
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+        }
+        .inner3 {
+            overflow-y: scroll;
+            line-height: 20px;
+            font-size: large;
+            text-align: justify;
+            text-indent: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="child" id="child1">
+            <h1>INDIA TOURISM</h1>
+        </div>
+        <div class="child" id="child2">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">TRAVEL</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </div>
+        <div class="child" id="child3">
+            <div class="place" id="place1">
+                <div class="inner1" id="inner1">
+                    <h1>KASHI</h1>
+                </div>
+                <div class="inner2" id="inner12"></div>
+                <div class="inner3" id="inner3">
+                    <p>Kashi is a city on the Ganges river in northern India that has a central place in
+                        the traditions of pilgrimage, death, and mourning in the Hindu world.The city has a
+                        syncretic tradition of Muslim artisanship that underpins its religious tourism.Located in
+                        the middle-Ganges valley in the southeastern part of the state of Uttar Pradesh, Varanasi lies
+                        on the left bank of the river. It is 692 kilometres to the southeast of India's capital
+                        New Delhi and 320 kilometres to the east of the state capital, Lucknow. It lies 121
+                        kilometres downstream of Allahabad where the confluence with the
+                        Yamuna river is another major Hindu pilgrimage site. <br><br>
+                        Varanasi is one of the world's oldest continually inhabited cities.Kashi, its ancient name,
+                        was associated with a kingdom of the same name of 2,500 years ago. The Lion capital of Ashoka at
+                        nearby Sarnath has been interpreted to be a commemoration of the Buddha's first sermon there in
+                        the fifth century BCE.In the 8th century, Adi Shankara established the worship of Shiva
+                        as an official sect of Varanasi. Since ancient times, the city has been an important centre of
+                        Hindu devotion, pilgrimage, mysticism and poetry contributing to its cultural
+                        importance. <br><br> Tulsidas wrote his Awadhi language epic, the Ramcharitmanas, a Bhakti
+                        movement
+                        reworking of the Sanskrit Ramayana, in Varanasi. Several other major figures of the Bhakti
+                        movement were born in Varanasi, including Kabir and Ravidas.In the 16th century, Rajput
+                        nobles in the service of the courts and armies of the Mughal emperor Akbar, sponsored the
+                        building or further enhancement of the major Shiva temple in the city; they also built other
+                        temples, all displaying an empire-wide architectural style.Under the Treaty of
+                        Faizabad, the East India Company acquired Benares in 1775,the city later successively
+                        becoming a part of the Benares Division in the Ceded and Conquered Provinces, the North-Western
+                        Provinces, and the United Provinces, and after India's independence of Uttar Pradesh.
+                    </p>
+                </div>
+            </div>
+
+            <div class="place" id="place2">
+                <div class="inner1" id="inner1">
+                    <h1>UJJAIN</h1>
+                </div>
+                <div class="inner2" id="inner22"></div>
+                <div class="inner3" id="inner3">
+                    <p>Ujjain old name Avantika is a city in Ujjain district of the Indian state of Madhya Pradesh.
+                        It is the fifth-largest city in
+                        Madhya Pradesh by population and is the administrative centre of Ujjain district and Ujjain
+                        division. It is one of the Hindu pilgrimage centres of Sapta Puri famous for the Kumbh Mela
+                        held there every 12 years. The famous temple of Mahakaleshwar Jyotirlinga is located in the
+                        center of the city. <br><br>
+                        An ancient city situated on the eastern bank of the Shipra River, Ujjain was the most prominent
+                        city on the Malwa plateau of central India for much of its history. It emerged as the political
+                        centre of central India around 600 BCE. It was the capital of the ancient Avanti kingdom, one of
+                        the sixteen Mahajanapadas. During the 18th century, the city briefly became the capital of
+                        Scindia state of the Maratha Empire, when Ranoji Scindia established his capital at Ujjain in
+                        1731. It remained an important political, commercial and cultural centre of Central India until
+                        the early 19th century, when the British administrators decided to develop Indore as an
+                        alternative to it. Ujjain continues to be an important place of pilgrimage for Shaivites,
+                        Vaishnavites and followers of Shakta. <br><br>
+                        Ujjain has been selected as one of the hundred Indian cities to be developed as a smart city
+                        under Prime Minister Narendra Modi's flagship Smart Cities Mission.</p>
+                </div>
+            </div>
+
+            <div class="place" id="place3">
+                <div class="inner1" id="inner1">
+                    <h1>HARIDWAR</h1>
+                </div>
+                <div class="inner2" id="inner32"></div>
+                <div class="inner3" id="inner3">
+                    <p>Haridwar is he city is situated on the right bank of the Ganges river, at the foothills of the
+                        Shivalik
+                        ranges.Haridwar is regarded as a holy place for Hindus, hosting important religious events
+                        and serving as a gateway to several prominent places of worship. Most significant of the events
+                        is the Kumbha Mela, which is celebrated every 12 years in Haridwar. During the Haridwar Kumbh
+                        Mela, millions of pilgrims, devotees, and tourists congregate in Haridwar to perform ritualistic
+                        bathing on the banks of the Ganges to wash away their sins to attain moksha. <br><br>
+                        According to Puranic legend, Haridwar, along with Ujjain, Nashik, and Prayag, is one of four
+                        sites where drops of amrita,the elixir of immortality, accidentally spilled over from a
+                        kumbha while being carried by the celestial bird Garuda during the Samudra Manthana,
+                        or the churning of the ocean of milk.Brahma Kund, the spot where the amrita fell, is
+                        believed to be located at Har ki Pauri and is considered to
+                        be the most sacred ghat of Haridwar.It is also the primary centre of the Kanwar pilgrimage,
+                        in which millions of participants gather sacred water from the Ganges and carry it across
+                        hundreds of miles to dispense as offerings in Shiva shrines. <br><br> Today, the city is
+                        developing
+                        beyond its religious importance with the fast-developing industrial estate of the State
+                        Industrial Development Corporation of Uttarakhand, and the close by township of Bharat
+                        Heavy Electricals Limited, as well as its affiliated ancillaries.</p>
+                </div>
+            </div>
+
+            <div class="place" id="place4">
+                <div class="inner1" id="inner1">
+                    <h1>AYODHYA</h1>
+                </div>
+                <div class="inner2" id="inner42"></div>
+                <div class="inner3" id="inner3">
+                    <p>
+                        Ayodhya is a city situated on the banks of holy
+                        river Saryu in the Indian state of Uttar Pradesh. It is the administrative headquarters of the
+                        Faizabad district as well as the Faizabad division of Uttar Pradesh, India.Ayodhya city is
+                        administered by the Ayodhya Municipal Corporation, the governing civic body of the city.
+                        <br><br>
+
+                        Ayodhya was historically known as Saketa. The early Buddhist and Jain canonical texts mention
+                        that
+                        the religious leaders Gautama Buddha and Mahavira visited and lived in the city. The Jain texts
+                        also
+                        describe it as the birthplace of five tirthankaras namely, Rishabhanatha, Ajitanatha,
+                        Abhinandananatha, Sumatinath and Anantnath, and associate it with the legendary Bharata
+                        Chakravarti.
+                        From the Gupta period onwards, several sources mention Ayodhya and Saketa as the name of the
+                        same
+                        city. <br><br>
+
+                        The legendary city of Ayodhya, popularly identified as the present-day Ayodhya, is the
+                        birthplace of
+                        the Hindu deity Rama of Kosala Kingdom and setting of the great epic Ramayana. Owing to the
+                        belief
+                        as the birthplace of Rama, Ayodhya has been regarded as first one of the seven most
+                        important pilgrimage sites for Hindus.Owing to the belief as the
+                        birthplace of Ram, Ayodhya has been regarded as one of the seven most important pilgrimage sites
+                        for
+                        Hindus. It is believed that a temple stood at the supposed birth spot of Rama, which was
+                        demolished
+                        by the orders of the Mughal emperor Babur and a mosque erected in its place.In 1992, the dispute
+                        over the spot led to the demolition of the mosque by Hindu mobs, who aimed to rebuild a grand
+                        temple
+                        of Rama at the site.A five-judge full bench of the Supreme Court heard the title cases from
+                        August to October 2019 and ruled that the land belonged to the government per tax records, and
+                        ordered it to be handed over to a trust to build a Hindu temple. It also ordered the government
+                        to
+                        give an alternative 5 acresof land to the Uttar Pradesh Sunni Central Waqf Board to build
+                        a mosque in lieu of the demolished Babri mosque. The construction of Ram Mandir commenced in
+                        August
+                        2020.
+                    </p>
+                </div>
+            </div>
+
+            <div class="place" id="place5">
+                <div class="inner1" id="inner1">
+                    <h1>MATHURA</h1>
+                </div>
+                <div class="inner2" id="inner52"></div>
+                <div class="inner3" id="inner3">
+                    <p>Mathura is a city and the administrative headquarters of Mathura
+                        district in the Indian state of Uttar Pradesh. It is located approximately 57.6 kilometres north
+                        of Agra, and 146 kilometres south-east of Delhi; about 14.5 kilometres from the town of
+                        Vrindavan, and 22 kilometres from Govardhan. In ancient times,
+                        Mathura was an economic hub, located at the junction of important caravan routes. The 2011
+                        Census of India estimated the population of Mathura at 441,894. <br><br>
+
+                        In Hinduism, Mathura is birthplace of Krishna, which is located at the Krishna Janmasthan Temple
+                        Complex. It is one of the Sapta Puri, the seven cities considered holy by Hindus, also called
+                        Mokshyadayni Tirth. The Kesava Deo Temple was built in ancient times on the site of Krishna's
+                        birthplace. Mathura was the capital of the kingdom of Surasena, ruled by
+                        Kansa, the maternal uncle of Krishna. Mathura is part of the Lord Krishna circuit. Janmashtami
+                        is grandly
+                        celebrated in Mathura every year. <br><br>
+
+                        Mathura has been chosen as one of the heritage cities for the Heritage City Development and
+                        Augmentation Yojana scheme of Government of India.</p>
+                </div>
+            </div>
+
+            <div class="place" id="place6">
+                <div class="inner1" id="inner1">
+                    <h1>KANCHIPURAM</h1>
+                </div>
+                <div class="inner2" id="inner62"></div>
+                <div class="inner3" id="inner3">
+                    <p>Kanchipuram also known as Conjeevaram, is a city in the Indian
+                        state of Tamil Nadu in the Tondaimandalam region, 72 km from Chennai-the capital of
+                        Tamil Nadu. Known as the City of Thousand Temples, Kanchipuram is known for its temple
+                        architectures, 1000-pillared halls, huge temple towers and silk saris. Kanchipuram serves as one
+                        of the most important tourist destinations in India. Kanchipuram has become a centre of
+                        attraction to the foreign tourists as well. The city covers an area of 36.14 km2
+                        and an estimated population of more than 300,000 in 2021.It is the administrative
+                        headquarters of Kanchipuram District. Kanchipuram is well-connected by road and rail. <br><br>
+
+                        Kanchipuram is a Tamil word formed by combining two words "Kanchi" and "puram" meaning "Brahma"
+                        and "residential place" respectively and located on the banks of the Vegavathy and Palar river.
+                        Kanchipuram has been ruled by the Pallavas, the Medieval Cholas,the Later Cholas, the Later
+                        Pandyas, the Vijayanagara Empire, the Carnatic kingdom, and the British, who called the city
+                        "Conjeeveram".The city's historical monuments include the Kailasanathar Temple and the
+                        Vaikunta Perumal Temple. Historically, Kanchipuram was a centre of education and was known as
+                        the ghatikasthanam, or "place of learning".The city was also a religious centre of advanced
+                        education for Jainism and Buddhism between the 1st and 5th centuries. <br><br> </p>
+                </div>
+            </div>
+
+            <div class="place" id="place7">
+                <div class="inner1" id="inner1">
+                    <h1>HAMPI</h1>
+                </div>
+                <div class="inner2" id="inner72"></div>
+                <div class="inner3" id="inner3">
+                    <p>Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage
+                        Site located in Hampi town, Vijayanagara district, east-central Karnataka, India. <br><br>
+
+                        Hampi was the capital of the Vijayanagara Empire in the 14th century.It was a fortified
+                        city. Chronicles left by Persian and European travellers, particularly the Portuguese, say that
+                        Hampi was a prosperous, wealthy and grand city near the Tungabhadra River, with numerous
+                        temples, farms and trading markets. By 1500 CE, Hampi-Vijayanagara was the world's
+                        second-largest medieval-era city after Beijing, and probably India's richest at that time,
+                        attracting traders from Persia and Portugal.The Vijayanagara Empire was defeated by a
+                        coalition of Muslim sultanates; its capital was conquered, pillaged and destroyed by sultanate
+                        armies in 1565, after which Hampi remained in ruins. <br><br>
+
+                        Located in Karnataka near the modern-era city of Hosapete, Hampi's ruins are spread over 4,100
+                        hectares and it has been described by UNESCO as an "austere, grandiose site" of more
+                        than 1,600 surviving remains of the last great Hindu kingdom in South India that includes
+                        "forts, riverside features, royal and sacred complexes, temples, shrines, pillared halls,
+                        mandapas, memorial structures, water structures and others".</p>
+                </div>
+            </div>
+
+            <div class="place" id="place8">
+                <div class="inner1" id="inner1">
+                    <h1>TIRUMALA</h1>
+                </div>
+                <div class="inner2" id="inner82"></div>
+                <div class="inner3" id="inner3">
+                    <p>Tirumala is a spiritual town in Tirupati district of the Indian state of Andhra Pradesh. It is
+                        one of the suburbs of the Tirupati urban agglomeration. The town is a part of Tirupati Urban
+                        Development Authority and located in Tirupati mandal of Tirupati revenue division.It
+                        is a hill town where Tirumala Venkateswara Temple is located, which is the abode of Vishnu. The
+                        town is strictly vegetarian.Tirumala is located 980 metres above sea level and covers
+                        an area of approximately 26.8 square kilometres. Surrounding the hills are seven
+                        peaks of Seshachalam range, Eastern Ghats namely Seshadri, Neeladri, Garudadri, Anjanadri,
+                        Vrushabadri, Narayanadri and Venkatadri. The temple of Sri Venkateswara is on the seventh
+                        peak. <br><br>
+
+                        At the 21 km point on the Tirupati-Tirumala Ghat road, there is a major discontinuity
+                        of stratigraphic significance that represents a period of remarkable serenity in the geological
+                        history of the Earth. This is referred to as the Eparchaean Unconformity. This unconformity
+                        separates the Nagari Quartzite of the Proterozoic from the granite of the Archean, representing
+                        a time gap of 800 Mya. In 2001, the Geological Survey of India declared the Eparchaean
+                        Unconformity to be one of the 26 "Geological Monuments of India".</p>
+                </div>
+            </div>
+
+            <div class="place" id="place9">
+                <div class="inner1" id="inner1">
+                    <h1>PURI</h1>
+                </div>
+                <div class="inner2" id="inner92"></div>
+                <div class="inner3" id="inner3">
+                    <p>The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu-one
+                        of the trinity of supreme divinity in Hinduism. Puri is in the state of Odisha, on the eastern
+                        coast of India. The present temple was rebuilt from the tenth century onwards, on the site of
+                        pre-existing temples in the compound but not the main Jagannatha temple, and begun by
+                        Anantavarman Chodaganga, the first king of the Eastern Ganga dynasty. <br><br>
+
+                        The Puri temple is famous for its annual Ratha Yatra, or chariot festival, in which the three
+                        principal deities are pulled on huge and elaborately decorated temple cars. Unlike the stone and
+                        metal icons found in most Hindu temples, the image of Jagannath is made of wood and is ceremoniously replaced every twelve or 19
+                        years by an exact replica. It is one of the Char Dham pilgrimage sites. <br><br>
+
+                        The temple is sacred to all Hindus, and especially in those of the Vaishnava traditions. Many
+                        great Vaishnava saints, such as Ramanujacharya, Madhvacharya, Nimbarkacharya, Vallabhacharya and
+                        Ramananda were closely associated with the temple.Ramanuja established the Emar Mutt near
+                        the temple and Adi Shankaracharya established the Govardhan Math, which is the seat of one of
+                        the four Shankaracharyas. It is also of particular significance to the followers of Gaudiya
+                        Vaishnavism, whose founder, Chaitanya Mahaprabhu, was attracted to the deity, Jagannath, and
+                        lived in Puri for many years.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

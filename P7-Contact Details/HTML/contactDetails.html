@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactDetails</title>
+    <style>
+      #main{
+        height: 730px;
+        width: 900px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+        background-color: #FF9A8B;
+        background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 10px;
+      }
+
+      #inner{
+        height: 650px;
+        width: 650px;
+        /* border: 1px solid; */
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+        box-shadow: 3px 3px 10px;
+      }
+
+      .box{
+        height: 90px;
+        width: 520px;
+        /* border: 1px solid; */
+      }
+
+      #box1{
+        height: 50px;
+        text-align: center;
+        margin-top: -10px;
+      }
+
+      #box2{
+        margin-top: -50px;
+      }
+
+      #box3{
+        margin-top: -30px;
+      }
+
+      #box4{
+        margin-top: -30px;
+      }
+
+      #box5{
+        margin-top: -40px;
+      }
+
+      .name{
+        height: 40px;
+        width: 310px;
+        border: none;
+        border-right: 3px solid;
+        border-bottom: 3px solid;
+      }
+
+      #last{
+        margin-left: 20px;
+      }
+
+      #a{
+        height: 20px;
+        width: 150px;
+        /* border: 1px solid; */
+      }
+
+      #b{
+        display: flex;
+        /* border: 1px solid; */
+      }
+
+      .input{
+        border: none;
+        line-height: 38px;
+      }
+
+      #mail{
+        width: 518px;
+      }
+
+      #box5{
+        height: 100px;
+      }
+
+      #box6{
+        height: 30px;
+        margin-top: -50px;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+      }
+
+      #message{
+        border: none;
+        border-bottom: 3px solid;
+        border-right: 3px solid;
+      }
+
+      #sub{
+        border-radius: 15px;    
+        background-color: #FF6A88;
+        text-align: center;
+        line-height: 1px;
+        padding: 18px 50px;
+        box-shadow: 2px 2px 10px ;
+      }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="inner">
+            <div class="box" id="box1"><h2>Contact Us</h2></div>
+
+            <div class="box" id="box2">
+                <div id="a"><p>YOUR NAME*</p></div>
+                <div id="b">
+                   <div class="name" id="first"><input type="text" class="input" placeholder="First Name"></div>
+                   <div class="name" id="last"><input type="text" class="input" placeholder="Last Name"></div>
+                </div>
+            </div>
+
+            <div class="box" id="box3">
+                <div id="a"><p>EMAIL ADDRESS*</p></div>
+                <div class="name" id="mail"><input type="text" class="input" placeholder="Ex.example@gmail.com"></div>
+            </div>
+
+            <div class="box" id="box4">
+                <div id="a"><p>PHONE NUMBER*</p></div>
+                <div class="name" id="mail"><input type="text" class="input" placeholder="Ex.+1800 000000"></div>
+            </div>
+
+            <div class="box" id="box5">
+                <div id="a"><p>MESSAGE*</p></div>
+                <div class="name" id=""> <textarea name="" id="message" cols="68" rows="4">Write Your Message Here...</textarea> </div>
+            </div>
+
+             <div class="box" id="box6">
+                <input  id="sub" type="submit" value="SUBMIT">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
